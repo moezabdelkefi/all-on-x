@@ -363,7 +363,7 @@ body {
   font-weight: 600;
   line-height: 1.4em;
   text-transform: capitalize;
-  color: var(--accent-color);
+  color: #51b8a8;
   padding-left: 30px;
   margin-bottom: 20px;
 }
@@ -374,7 +374,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: url("../images/icon-sub-heading.svg") no-repeat;
+  background: url("../images/icon-tooth.png") no-repeat;
   background-position: left center;
   background-size: cover;
   width: 18px;
@@ -787,7 +787,7 @@ header.main-header .header-sticky.active {
 .hero.bg-image.hero-slider-layout
   .hero-pagination
   .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  background-color: #51b8a8;
 }
 
 .hero.bg-image .hero-content {
@@ -1156,7 +1156,7 @@ header.main-header .header-sticky.active {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: url("../images/icon-check.svg") no-repeat;
+  background: url("../images/icon-check.png") no-repeat;
   background-position: left center;
   background-size: cover;
   height: 22px;
@@ -1335,7 +1335,7 @@ header.main-header .header-sticky.active {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: var(--accent-color);
+  color: #51b8a8;
   padding-right: 30px;
   transition: all 0.3s ease-in-out;
 }
@@ -1352,7 +1352,7 @@ header.main-header .header-sticky.active {
   top: 50%;
   transform: translate(0, -50%);
   font-size: 18px;
-  color: var(--accent-color);
+  color: #51b8a8;
   line-height: normal;
   width: 18px;
   height: 18px;
@@ -1733,7 +1733,7 @@ header.main-header .header-sticky.active {
   height: 40px;
   background-color: transparent;
   box-shadow: 0px 1px 2px 0px #1018280d;
-  border: 2px solid var(--accent-color);
+  border: 2px solid #012D3A;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
 }
@@ -1757,7 +1757,7 @@ header.main-header .header-sticky.active {
   left: 0;
   right: 0;
   font-size: 18px;
-  color: var(--accent-color);
+  color: #51b8a8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2117,7 +2117,7 @@ header.main-header .header-sticky.active {
 
 .contact-info-item .icon-box {
   position: relative;
-  background-color: var(--accent-color);
+  background-color: #51b8a8;
   border-radius: 12px;
   width: 44px;
   height: 44px;
@@ -3067,7 +3067,7 @@ header.main-header .header-sticky.active {
   align-items: center;
   background: var(--secondary-color);
   border: 1px solid var(--divider-color);
-  color: var(--accent-color);
+  color: #51b8a8;
   border-radius: 10px;
   width: 40px;
   height: 40px;
@@ -3079,7 +3079,7 @@ header.main-header .header-sticky.active {
 
 .page-pagination ul li.active a,
 .page-pagination ul li a:hover {
-  background: var(--accent-color);
+  background: #51b8a8;
   color: var(--white-color);
 }
 
@@ -3734,7 +3734,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-faq-accordion .accordion-button:not(.collapsed) {
-  background-color: var(--accent-color);
+  background-color: #51b8a8;
   color: var(--white-color);
   border-bottom: 1px solid var(--dark-divider-color);
 }
@@ -3770,7 +3770,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-faq-accordion .accordion-item .accordion-body {
-  background-color: var(--accent-color);
+  background-color: #012D3A;
   padding: 20px 50px 20px 20px;
 }
 
@@ -3893,7 +3893,7 @@ header.main-header .header-sticky.active {
 }
 
 .contact-info-social-list ul li a i {
-  color: var(--primary-color);
+  color: #51b8a8;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
