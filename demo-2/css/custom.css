@@ -43,11 +43,11 @@
 
 :root {
   --primary-color: linear-gradient(#012D3A, #51b8a8);
-  --secondary-color: #f9fcff;
+  --secondary-color: #f6fff8;
   --text-color: #527282;
   --accent-color: #1e84b5;
   --white-color: #ffffff;
-  --divider-color: #0e384c12;
+  --divider-color: #51b8a8;
   --dark-divider-color: #ffffff1f;
   --error-color: rgb(230, 87, 87);
   --default-font: "Onest", sans-serif;
@@ -359,7 +359,7 @@ body {
 .section-title h3 {
   display: inline-block;
   position: relative;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.4em;
   text-transform: capitalize;
@@ -1240,7 +1240,7 @@ header.main-header .header-sticky.active {
 
 .our-service {
   padding: 100px 0 70px;
-  background: var(--secondary-color);
+  background: #012D3A;
 }
 
 .service-item {
@@ -1501,8 +1501,7 @@ header.main-header .header-sticky.active {
 /*************************************/
 
 .why-choose-us {
-  /* background: linear-gradient(270deg, var(--secondary-color) 50%, transparent 50%), url('../images/why-choose-bg-img.jpg'); */
-  background: url("../images/why-choose-bg-img.jpg"), var(--secondary-color);
+  background: url("../images/why-choose-bg-img.jpg"), #012D3A; 
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 50% 100%;
@@ -1515,6 +1514,13 @@ header.main-header .header-sticky.active {
 
 .why-choose-image {
   padding: 0 15px;
+}
+.title3 {
+  color: #ffffff;
+}
+
+.choose-body {
+  color: #ffffff;
 }
 
 .why-choose-box {
@@ -1605,6 +1611,7 @@ header.main-header .header-sticky.active {
 .why-choose-content .section-title {
   margin-bottom: 100px;
 }
+
 
 .why-choose-content .section-title .highlighted-text {
   font-weight: 700;
@@ -1744,7 +1751,7 @@ header.main-header .header-sticky.active {
 
 .testimonial-slider .testimonial-button-next:hover,
 .testimonial-slider .testimonial-button-prev:hover {
-  background-color: var(--accent-color);
+  background-color: #51b8a8;
 }
 
 .testimonial-slider .testimonial-button-next::before,
@@ -2007,7 +2014,7 @@ header.main-header .header-sticky.active {
 /*************************************/
 
 .our-blog {
-  background-color: var(--secondary-color);
+  background-color: #012D3A;
   padding: 100px 0 70px;
 }
 
@@ -2094,7 +2101,8 @@ header.main-header .header-sticky.active {
 /*************************************/
 
 .contact-us {
-  padding: 100px 0;
+  padding: 0px 0;
+  padding-bottom: 100px;
 }
 
 .contact-info-box {
@@ -2430,7 +2438,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-projects-nav ul li .nav-link.active {
-  background-color: var(--primary-color);
+  background-color: #012D3A;
   color: var(--white-color);
 }
 
@@ -4956,7 +4964,7 @@ header.main-header .header-sticky.active {
   .why-choose-us {
     background: linear-gradient(
         180deg,
-        var(--secondary-color) 64%,
+        #012D3A 64%,
         transparent 36%
       ),
       url(../images/why-choose-bg-img.jpg);
@@ -5401,4 +5409,83 @@ header.main-header .header-sticky.active {
   .error-page-content-heading h2 {
     font-size: 24px;
   }
+}
+
+
+
+
+
+
+/************************************/
+/***     08. Why Choose Us css	  ***/
+/************************************/
+
+.why-choose-section {
+  position: relative;
+  background-position: top center;
+  background-size: auto;
+  padding: 100px 0;
+}
+
+.why-choose-section .icon-star-image {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(10px, -50%);
+}
+
+.choose-box-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.choose-box-1 .choose-item {
+  flex-direction: row-reverse;
+}
+
+.choose-box-1 .choose-item .icon-box {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.choose-box-1 .choose-item .choose-content {
+  text-align: right;
+}
+
+.choose-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.choose-item:last-child {
+  margin-bottom: 0;
+}
+
+.choose-item .icon-box {
+  margin-right: 15px;
+}
+
+.choose-item .icon-box img {
+  max-width: 48px;
+}
+
+.choose-content {
+  width: calc(100% - 63px);
+}
+
+.choose-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.choose-content p {
+  margin: 0;
+}
+
+.choose-image {
+  position: relative;
+  z-index: 1;
 }
