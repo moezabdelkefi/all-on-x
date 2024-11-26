@@ -1929,5 +1929,27 @@
     <script src="js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var header = document.querySelector(".header-sticky");
+        var lastScrollTop = 0;
+    
+        window.addEventListener("scroll", function () {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+          if (scrollTop > lastScrollTop) {
+            // Downscroll
+            header.classList.add("hide");
+            header.classList.remove("active");
+          } else {
+            // Upscroll
+            header.classList.add("active");
+            header.classList.remove("hide");
+          }
+    
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        });
+      });
+    </script>
   </body>
 </html>
