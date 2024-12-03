@@ -50,7 +50,7 @@
   --divider-color: #51b8a8;
   --dark-divider-color: #ffffff1f;
   --error-color: rgb(230, 87, 87);
-  --default-font: "Onest", sans-serif;
+  --default-font: "Almarai",sans-serif;
 }
 
 /************************************/
@@ -471,8 +471,8 @@ header.main-header .header-sticky.active {
 }
 
 .main-menu ul li a {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   padding: 14px 10px !important;
   color: var(--white-color);
   text-transform: capitalize;
@@ -561,7 +561,7 @@ header.main-header .header-sticky.active {
 }
 
 .slicknav_btn {
-  background: var(--accent-color);
+  background: #51b8a8;
   padding: 0;
   display: flex;
   align-items: center;
@@ -616,7 +616,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   width: 100%;
   padding: 0;
-  background: var(--accent-color);
+  background: #012D3A;
 }
 
 .slicknav_menu ul {
